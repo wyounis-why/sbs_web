@@ -1,0 +1,88 @@
+.home-page {
+  /* padding: 40px 16px; */
+}
+
+/* Sections */
+.scroll-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+  margin: 60px auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+/* Reveal on scroll */
+.scroll-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Content layout: stacked on mobile */
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+/* Placeholder image */
+.image-placeholder {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  background-color: #ddd;
+  border-radius: 10px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph */
+.scroll-section p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* --- Tablet & Up --- */
+@media (min-width: 768px) {
+  .scroll-section {
+    max-width: 90%;
+  }
+
+  .section-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .section-content.right {
+    flex-direction: row-reverse;
+  }
+
+  .image-placeholder {
+    max-width: 400px;
+    height: 350px;
+  }
+
+  .scroll-section p {
+    flex: 1;
+  }
+}
+
+/* --- Desktop & Up --- */
+@media (min-width: 1024px) {
+  .scroll-section {
+    max-width: 1200px;
+  }
+
+  .home-page {
+    /* padding: 60px 40px; */
+  }
+}
