@@ -44,13 +44,13 @@ const Footer = () => {
         <div className="footer-social">
           <h4>Follow Us</h4>
           <div className="footer-icons">
-            <a href="#" className="footer-icon" aria-label="Instagram">
+            <a href="https://pages.cloudflare.com" className="footer-icon" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="footer-icon" aria-label="Facebook">
+            <a href="https://pages.cloudflare.com" className="footer-icon" aria-label="Facebook">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="footer-icon" aria-label="TikTok">
+            <a href="https://pages.cloudflare.com" className="footer-icon" aria-label="TikTok">
               <i className="fab fa-tiktok"></i>
             </a>
           </div>

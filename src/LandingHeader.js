@@ -47,13 +47,13 @@ const LandingHeader = () => {
           </div>
 
           <div className="social-icons">
-            <a href="#" className="icon" aria-label="Instagram">
+            <a href="https://pages.cloudflare.com" className="icon" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="icon" aria-label="Facebook">
+            <a href="https://pages.cloudflare.com" className="icon" aria-label="Facebook">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="icon" aria-label="TikTok">
+            <a href="https://pages.cloudflare.com" className="icon" aria-label="TikTok">
               <i className="fab fa-tiktok"></i>
             </a>
           </div>
